@@ -27,7 +27,7 @@ public class UserTest {
 	@Test
 	public void testEquals()
 	{
-		User john2 = new User (1l,"dean", "gaffney", 19, "m",  "mechanic"); 
+		User john2 = new User (1l,"john", "power", 30, "m",  "teacher"); 
 		User barry   = new User (2l,"barry", "tea", 23, "m",  "barista"); 
 
 		assertEquals(john, john);
